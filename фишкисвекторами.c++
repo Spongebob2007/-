@@ -9,6 +9,7 @@ int main()
     int min = 0;
     cin >> n;
     vector<ll> v(n);
+    // v.resize(s);
     for (auto& it : v)
         cin >> it;
     idx = 2; // Удаляем элемент с 3 элементом
